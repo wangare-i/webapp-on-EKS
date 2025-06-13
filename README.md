@@ -1,6 +1,6 @@
 # webapp-on-EKS
 
-erson A, a member of the DevOps team of a famous Korean company, will be in charge of a project to develop a new web applications. The application should be satisfied with the following:
+Person A, a member of the DevOps team of a famous Korean company, will be in charge of a project to develop a new web applications. The application should be satisfied with the following:
 
 Quickly reflect changes when new requests are occurred
 Easy scaling
@@ -20,9 +20,3 @@ At this point, Person A found out managed kubernetes service, Amazon Elastic Kub
 -Deploy service with AWS Fargate
 -Build CI/CD Pipeline
 
-C74D9F8B6AF937F99BFFC1008CBF137F
-
-aws iam list-open-id-connect-providers | grep C74D9F8B6AF937F99BFFC1008CBF137F
-
-
-sed -i.bak -e 's|eks-demo|eks-demo|' ./v2_5_4_full.yaml
